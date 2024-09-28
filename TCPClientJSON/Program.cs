@@ -4,10 +4,8 @@ using System.Net.Sockets;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-class Program
-{
-    static async Task Main(string[] args)
-    {
+
+    
         string server = "127.0.0.1"; // Server IP address
         int port = 7; // Server port
 
@@ -60,5 +58,4 @@ class Program
         {
             Console.WriteLine("Exception: " + e.Message);
         }
-    }
-}
+ 
